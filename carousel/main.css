@@ -83,7 +83,7 @@ a {
     cursor: pointer;
 }
 
-.slides .slide .mais i {
+.slides .slide .mais span {
     margin-left: 10px;
 }
 
@@ -136,10 +136,10 @@ a {
     cursor: pointer;
 }
 
-.slides .setas .esquerda i {
+.slides .setas .esquerda span {
     padding-left: 7px;
 }
 
-.slides .setas .direita i {
+.slides .setas .direita span {
     padding-left: 8px;
 }
