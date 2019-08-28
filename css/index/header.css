@@ -5,7 +5,7 @@
     justify-content: var(--center);
     width: 100%;
     height: 100vh;
-    background-image: url("/img/fundo2.jpg");
+    background-image: url("https://peil.dev/img/fundo2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
