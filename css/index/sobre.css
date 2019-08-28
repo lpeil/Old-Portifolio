@@ -20,7 +20,7 @@
     display: var(--flex);
     align-items: var(--center);
     justify-content: var(--center);
-    background-image: url("/img/foto.jpeg");
+    background-image: url("https://peil.dev/img/foto.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
