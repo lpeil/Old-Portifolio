@@ -1,0 +1,44 @@
+.formacao {
+    width: 100%;
+    margin-top: 5%;
+    color: var(--cinza-escuro);
+}
+
+.formacao-corpo {
+    width: 100%;
+    display: var(--flex);
+    justify-content: var(--space-evenly);
+    flex-flow: var(--row) var(--wrap);
+}
+
+.formacao-card {
+    width: 40%;
+    display: var(--flex);
+    flex-direction: var(--column);
+    padding: 20px;
+    -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.formacao-card .principal {
+    font-size: 16pt;
+    font-family: var(--font-titulo);
+    text-align: var(--center);
+    margin: 5px 0px 10px 0px;
+}
+
+.formacao-card .secundario {
+    text-align: justify;
+}
+
+.formacao-card .tempo {
+    text-align: var(--center);
+    font-size: 12pt;
+}
+
+@media only screen and (max-width: 800px) {
+    .formacao-card {
+        width: 80%;
+    }
+}
