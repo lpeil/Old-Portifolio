@@ -1,1 +1,141 @@
-<h1>Hi</h1>
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Luan Peil</title>
+        <!--METAS-->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="portfolio, web, developer, programador, backend, desenvolvedor, luan, peil, desenvolvimento">
+        <meta name="description" content="Portfolio de desenvolvimento web e programação do Luan Peil">
+        <meta name="language" content="PT-BR">
+        <meta name="viewport" content="initial-scale=1">
+        <meta name="theme-color" content="#eeeeee">
+        <meta name="author" content="Luan Peil">
+        <meta name="robots" ontent="noindex">
+        <meta name="googlebot" content="noindex">
+        <!--LINKS-->
+        <link rel="stylesheet" href="css/index/main.css">
+        <link rel="stylesheet" href="css/index/icon.css">
+        <link rel="stylesheet" href="css/index/nav.css">
+        <link rel="stylesheet" href="css/index/header.css">
+        <link rel="stylesheet" href="css/index/sobre.css">
+        <link rel="stylesheet" href="css/index/formacao.css">
+        <link rel="stylesheet" href="css/index/projetos.css">
+        <link rel="stylesheet" href="css/index/contato.css">
+        <link rel="stylesheet" href="css/index/footer.css">
+        <!--FONTES-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo&display=swap">
+    </header>
+    <body>
+        <nav>
+            <div class="logo">LUAN PEIL</div>
+            <div class="nav-menu">
+                <span>=</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="ativo">INÍCIO</a>
+                <a href="sobre.html" class="efeito">SOBRE</a>
+                <a href="contato.html" class="efeito">CONTATO</a>
+                <a href="projetos.html" class="efeito">PROJETOS</a>
+            </div>
+            <div class="nav-drop">
+                <a href="index.html" class="ativo">INÍCIO</a>
+                <a href="sobre.html" class="efeito">SOBRE</a>
+                <a href="contato.html" class="efeito">CONTATO</a>
+                <a href="projetos.html" class="efeito">PROJETOS</a>
+            </div>
+        </nav>
+        <div class="header">
+            <span class="header-texto-principal">Luan Peil</span>
+            <span class="header-texto-secundario">Desenvolvedor Web</span>
+        </div>
+        <div class="sobre">
+            <div class="sobre-conteudo">
+                <div class="sobre-esquerda">
+                </div>
+                <div class="sobre-direita">
+                    <span class="sobre-titulo">Sobre Mim</span>
+                    <span class="sobre-apresentacao">Olá! sou o Luan Peil.</span>
+                    <span class="sobre-texto">Sou estudante de Sistemas para a Internet, tenho conhecimento em desenvolvimento web tanto back-end, tanto front-end, e algumas habilidades com Linux e desenvolvimento de games e mobile.</span>
+                    <a href="sobre.html">
+                        <button class="sobre-button">Ver Mais</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contato" id="contato">
+            <div class="titulo">CONTATO</div>
+            <div id="mensagem"></div>
+            <form action="/php/contato.php" method="post" autocomplete="off">
+                <div>
+                    <input required type="text" name="nome" maxlength="18" placeholder="Nome...">
+                    <input required type="email" name="email" placeholder="Email...">
+                    <input required type="phone" name="celular" placeholder="Celular...">
+                </div>
+                <div>
+                    <textarea required placeholder="Digite aqui..." name="texto"></textarea>
+                </div>
+                <div class="center"><button>Enviar</button></div>
+            </form>
+            </div>
+        </div>
+        <div class="projetos">
+            <div class="titulo">PROJETOS</div>
+            <div class="projeto-corpo">
+                <!--CARD 1-->
+                <div class="card" id="card1">
+                    <div class="card-esquerda"></div>
+                    <div class="card-direita">
+                        <span class="nome">Football Manager Online</span>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ex a praesentium incidunt, eligendi velit enim consequuntur, beatae nesciunt aspernatur doloribus? Enim, dolorem. Corporis amet quasi provident eius consequatur officiis!</span>
+                        <span>(Em desenvolvimento)</span>
+                        <a href="#">Ver Mais </a>
+                    </div>
+                </div>
+                <!--CARD 2-->
+                <div class="card" id="card1">
+                    <div class="card-esquerda"></div>
+                    <div class="card-direita">
+                        <span class="nome">Football Manager Online</span>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum ex a praesentium incidunt, eligendi velit enim consequuntur, beatae nesciunt aspernatur doloribus? Enim, dolorem. Corporis amet quasi provident eius consequatur officiis!</span>
+                        <span>(Em desenvolvimento)</span>
+                        <a href="#">Ver Mais </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer-1">
+            <div class="footer-sobre">
+                <div class="logo">LUAN PEIL</div>
+                <span>Desenvolvedor Web perfeito para o seu projeto.</span>
+            </div>
+            <div class="footer-links">
+                <span>LINKS RÁPIDOS</span>
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+                <a href="projetos.html">Projetos</a>
+            </div>
+            <div class="footer-contato">
+                <span>CONTATO</span>
+                <p>(53) 99182-2922</p>
+                <p>luan@peil.dev</p>
+                <p>Pelotas (RS)</p>
+                <div class="midias">
+                    <a href="https://github.com/lpeil/" title="GitHub"><div class="icon i-github"></div></a>
+                    <a href="https://www.linkedin.com/in/luan-peil-19b98414a/" title="Linkedin"><div class="icon i-linkedin"></div></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-2">
+            <span>Copyright 2019 - Peil Dev</span>
+        </div>
+    </footer>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/mensagem.js"></script>
+<script src="js/nav.js"></script>
