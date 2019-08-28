@@ -1,0 +1,82 @@
+.projetos {
+    width: 100%;
+    margin-top: 5%;
+    padding-top: 10px;
+    background-color: var(--azul-claro);
+    color: var(--cinza-escuro);
+}
+
+.projeto-corpo {
+    width: 100%;
+    display: var(--flex);
+    align-items: var(--center);
+    flex-flow: var(--column) var(--wrap);
+}
+
+.card {
+    width: 90%;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: var(--row);
+    align-items: var(--space-evenly);
+    margin: 15px;
+    flex-flow: var(--row) var(--wrap);
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.5);
+}
+
+.card .card-esquerda {
+    width: 25%;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card1 .card-esquerda {
+    background-image: url("/img/card/card1-fundo.png");
+}
+
+.card .card-direita {
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: var(--column);
+    font-family: var(--font-texto);
+} 
+
+.card .card-direita span {
+    margin: 5px;
+}
+
+.card-direita a  {
+    background-color: var(--azul-link);
+    color: var(--branco);
+    width: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 5px 0px 0px 5px;
+}
+
+.card .card-direita .nome {
+    font-size: 20pt;
+}
+
+@media only screen and (max-width: 800px) {
+    .card .card-esquerda {
+        width: 100%;
+    }
+
+    .card  .card-direita {
+        width: 100%;
+    }
+
+    .card .card-direita .nome {
+        text-align: center;
+    }
+
+    .card .card-direita span {
+        text-align: justify;
+    }
+}
