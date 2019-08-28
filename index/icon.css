@@ -1,0 +1,22 @@
+.icon {
+    width: 42px;
+    height: 42px;
+    filter: invert(80%);
+    border-radius: 50%;
+    transition: 0.5s;
+    background-size: contain;
+    background-position: center center;
+}
+
+.icon:hover {
+    filter: invert(100%);
+    border-radius: 5px;
+}
+
+.i-github {
+    background-image: url("/img/icon/github.png");
+}
+
+.i-linkedin {
+    background-image: url("/img/icon/linkedin.png");
+}
