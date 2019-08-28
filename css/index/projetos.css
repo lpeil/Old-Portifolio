@@ -35,7 +35,7 @@
 }
 
 #card1 .card-esquerda {
-    background-image: url("/img/card/card1-fundo.png");
+    background-image: url("https://peil.dev/img/card/card1-fundo.png");
 }
 
 .card .card-direita {
